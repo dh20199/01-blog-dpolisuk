@@ -1,6 +1,7 @@
 html {
     background-color: #ccc;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 *, *:before, *:after {
@@ -9,17 +10,32 @@ html {
 
 main {
     border: 2px black solid;
-    padding: 10px;                      
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 50rem;                      
 }
 
 header {
     text-align: center;
+    background-color: #dfebfb;
+    padding-top: 5px;
 }
 
 article {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flow-root;
 }
 
 article img {
+    width: 15rem;
+    border-style: solid;
+    border-radius: 5px;
+    max-width: 15rem;
+    margin-right: 5px;
+    float: left;
 }
 
 footer {
