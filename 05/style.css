@@ -1,3 +1,31 @@
 article {
-    background:  #0000;;
+    background:  #0000;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article img{
+    width: 15rem;
+    border-radius: 10px;
+    max-width: 15rem;
+    margin-right: 5px;
+    margin-left: 5px;
+    float: right;
+}
+
+header{
+    background-color: crimson;
+    color: white;
+}
+
+section.main{
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-indent: 50px;
+}
+
+section.sources{
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
 }
